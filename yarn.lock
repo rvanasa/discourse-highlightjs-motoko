@@ -1904,9 +1904,9 @@ heimdalljs@^0.2.0, heimdalljs@^0.2.1, heimdalljs@^0.2.3, heimdalljs@^0.2.5, heim
     rsvp "~3.2.1"
 
 highlightjs-glimmer@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/highlightjs-glimmer/-/highlightjs-glimmer-2.1.0.tgz#01b55b6e1f52f89d7a46add3fda34d8f5e8adbe0"
-  integrity sha512-+n0eRrP4EjpDVjKjgMRjHJwKIp5dlzoZA+8FuALh4kU1PADzRmryohiROLL92qCpwBLBKqv5qr12l/KKenuI3g==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/highlightjs-glimmer/-/highlightjs-glimmer-2.2.0.tgz#2de544a6f45964fd878ac96c96b2c9434ed80bd7"
+  integrity sha512-e8TkHkOyx02V5X8ExImGW98cS2OppmSkzi7vVZP+6msk5lm4AIJV5gv6ACBizwuXUiItM2B1s4IoIH720wxHfw==
 
 ieee754@^1.1.13:
   version "1.2.1"
