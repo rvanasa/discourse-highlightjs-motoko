@@ -1,6 +1,6 @@
 {
-  "name": "discourse-highlightjs-glimmer",
+  "name": "discourse-highlightjs-motoko",
   "component": true,
-  "authors": "Discourse",
+  "authors": "Ryan Vandersmith",
   "assets": {}
 }
