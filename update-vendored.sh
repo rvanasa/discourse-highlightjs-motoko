@@ -1,8 +1,9 @@
 #!/bin/bash
 
 set -e pipefail
-yarn install
-rm -rf javascripts/vendor/highlightjs-glimmer
-mkdir -p javascripts/vendor/highlightjs-glimmer
-cp node_modules/highlightjs-glimmer/dist/glimmer.esm.min.js javascripts/vendor/highlightjs-glimmer/index.js
-echo "highlightjs-glimmer updated"
+pnpm install
+rm -rf javascripts/vendor/highlightjs-motoko
+mkdir -p javascripts/vendor/highlightjs-motoko
+cp node_modules/highlightjs-motoko/dist/motoko.es.min.js javascripts/vendor/highlightjs-motoko/motoko.js
+cp node_modules/highlightjs-motoko/dist/candid.es.min.js javascripts/vendor/highlightjs-motoko/candid.js
+echo "highlightjs-motoko updated"
