@@ -1,17 +1,24 @@
 {
   "private": true,
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.25.7",
     "@discourse/lint-configs": "1.4.2",
     "ember-template-lint": "6.0.0",
     "eslint": "8.57.1",
-    "prettier": "2.8.8",
     "highlightjs-motoko": "^1.0.4",
-    "@babel/plugin-proposal-decorators": "^7.25.7"
+    "prettier": "2.8.8"
   },
   "engines": {
     "node": ">= 18",
     "npm": "please-use-pnpm",
     "yarn": "please-use-pnpm",
     "pnpm": ">= 9"
+  },
+  "pnpm": {
+    "overrides": {
+      "@babel/helpers@<7.26.10": ">=7.26.10",
+      "cross-spawn@>=7.0.0 <7.0.5": ">=7.0.5",
+      "brace-expansion@>=1.0.0 <=1.1.11": ">=1.1.12"
+    }
   }
 }
